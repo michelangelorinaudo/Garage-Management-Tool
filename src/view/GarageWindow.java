@@ -84,7 +84,7 @@ public class GarageWindow extends JFrame
 		phoneNumberLabel = new JLabel("Telefono");
 		phoneNumber = new JTextField();
 		
-		priceLabel = new JLabel("Precio €");
+		priceLabel = new JLabel("Precio â‚¬");
 		price = new JTextField();
 		
 		saveButton = new JButton("Grabar");
@@ -185,7 +185,7 @@ public class GarageWindow extends JFrame
 	}
 
 	/**
-	 * Method that gets the customer's costs/ or the parking space price.
+	 * Method that gets the customer's costs or the parking space price.
 	 * @return
 	 */
 	public JTextField getPrice()
